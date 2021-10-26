@@ -42,7 +42,7 @@
   margin: 0;
 }
 .head-image img{
-  width: 80em;
+  width: 100em;
   
 }
 
@@ -55,7 +55,7 @@ width: 709px;
 .text-on-image {
  position: absolute;
  right: 50%;
- left: 20%;
+ left: 25%;
  bottom: 15%;
 }
 
@@ -73,15 +73,37 @@ width: 709px;
   align-items: center;
 }
 
-.secondImg{
-  width: 973px;
-  position: absolute;
-  top: 10%;
+.second-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
 }
 
-second-div{
-  display:flex;
+.secondImg{
+  width: 973px;
+  /* position: relative;
+  bottom: 10%; */
+}
+
+.second-div{
+  /* display:flex;
   justify-content: center;
-  align-items:center;
-  position: relative;
+  align-items:center; */
+  position: absolute;
+  top: 95%;
+}
+
+.first-main{
+  padding-top:25em;
+}
+
+.para1{
+  margin: 1px 130px;
+}
+
+.third-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
